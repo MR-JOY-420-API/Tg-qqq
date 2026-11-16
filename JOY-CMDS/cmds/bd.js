@@ -44,7 +44,7 @@ module.exports = {
       // Take top 5 videos as requested
       const topVideos = videos.slice(0, 5);
       
-      let messageText = `🎬 **StreamUI (Ad-Free)**\n👤 *API by JOY AHMED*\n🔎 কিওয়ার্ড: _${query}_\n\n`;
+      let messageText = `🎬  কিওয়ার্ড: _${query}_\n\n`;
       
       topVideos.forEach((item, index) => {
         const title = item.title || `Video ${index + 1}`;
